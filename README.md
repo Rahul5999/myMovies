@@ -39,7 +39,16 @@ Setting Up The Project
 
 10.) and for that ViewController  say "MainViewController " we wil we will link that view controller through storyboard
 
-11.) and we will place SearchBar and table view from Library and give appropiate layouts
+11.) and we will place UISearchBar and UItableview from Library and give appropiate layouts
 
-12.) And for tableview , searchBar and Title all the modifications of code will be made mainViewController 
+12.) Now we will create Xib file for the tableviewcell and places the UIImage for poster,label for title&release year and heart symbol for favourites with appropriate autolayouts
 
+13.) When the favorite button is tapped, the favouriteButtonTapped method toggles the movie's favorite status and saves it using UserDefaults.
+
+14.) The configure method sets up the cell with movie data, including downloading and setting the poster image asynchronously. 
+
+15.) The cell's background and text colors are set to ensure good contrast and readability.
+
+16.) Coming back to MainViewController we will setup all the required things setiing up basic things like conform to UITableVIewDataSource and UITableViewDelegate
+
+17.) and then we will register Tableviewcell in this mainViewController
