@@ -43,7 +43,15 @@ Setting Up The Project
 
 11.) and we will place UISearchBar and UItableview from Library and give appropiate layouts
 
+![mainViewCOntroller](https://github.com/user-attachments/assets/81987560-e33d-45fc-8402-a6f17a95b096)
+
+
+
 12.) Now we will create Xib file for the tableviewcell and places the UIImage for poster,label for title&release year and heart symbol for favourites with appropriate autolayouts
+
+![TableViewCell](https://github.com/user-attachments/assets/8d61778b-3665-43c8-8ebe-fc03aee44e57)
+
+
 
 13.) When the favorite button is tapped, the favouriteButtonTapped method toggles the movie's favorite status and saves it using UserDefaults.
 
