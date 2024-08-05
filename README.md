@@ -65,4 +65,21 @@ Setting Up The Project
 
 16.) Coming back to MainViewController we will setup all the required things setiing up basic things like conform to UITableVIewDataSource and UITableViewDelegate
 
-17.) and then we will register Tableviewcell in this mainViewController, and 
+17.) and then we will register Tableviewcell in this mainViewController, and the class maintains arrays for movies and filtered results, and tracks the search state with a boolean variable. In viewDidLoad(), it sets up the table view and search bar, registers a custom cell, and initiates fetching movie data from the OMDb API.
+
+18.) The fetched data is parsed and used to update the table view on the main thread. The search bar's appearance is customized, and it filters the movie list based on user input. The navigation bar's appearance is set programmatically in viewWillAppear()
+
+19.) The class also handles URL session tasks for API data fetching, with appropriate error handling and JSON parsing to extract movie data. The searchBarDelegate methods manage search input and keyboard dismissal, ensuring a responsive and user-friendly interface.
+
+20.) And we will create DetailsViewController , similar process above mentioned for creating a UIViewController .
+
+21.) And then we will implement the ScrollView on the viewcontroller with appropritate Layouts
+
+22.) And then place the UIComponents titleLabel,yearLabel,actors,genreLabel,languageLabel,ratingLabel,worthWatchingLabel & plot and director label as UITextView & posterImageview as UIImageView with appropriate constraints
+
+23.)and when clicked on cell in tableviewcells that particular movie imdbID is passed
+
+24.) In detailsViewController's viewDidLoad function fetchMovieDetails(movieID:) is called and fetches movie details from the OMDb API and parses the JSON response.
+
+25.) The updateUI(with:) method updates the UI components with the parsed movie details.
+
