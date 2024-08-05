@@ -49,7 +49,8 @@ Setting Up The Project
 
 12.) Now we will create Xib file for the tableviewcell and places the UIImage for poster,label for title&release year and heart symbol for favourites with appropriate autolayouts
 
-![TableViewCell](https://github.com/user-attachments/assets/8d61778b-3665-43c8-8ebe-fc03aee44e57)
+![TableViewCell](https://github.com/user-attachments/assets/78822734-1b98-46a1-ba18-62f617d4e14c)
+
 
 
 
