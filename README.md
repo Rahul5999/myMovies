@@ -15,6 +15,9 @@
 **Details of selected movie**
 ![5](https://github.com/user-attachments/assets/c4863552-e15a-4429-b6d5-7d2cc19e8804)
 
+![image](https://github.com/user-attachments/assets/ca945606-0a90-4ff4-b0f9-4268bb26061c)
+
+
 **Searching the movie in main Screen**
 ![6](https://github.com/user-attachments/assets/ed601b8e-83d2-44fa-ad93-e1115c61c41b)
 
@@ -62,4 +65,4 @@ Setting Up The Project
 
 16.) Coming back to MainViewController we will setup all the required things setiing up basic things like conform to UITableVIewDataSource and UITableViewDelegate
 
-17.) and then we will register Tableviewcell in this mainViewController
+17.) and then we will register Tableviewcell in this mainViewController, and 
