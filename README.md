@@ -77,9 +77,9 @@ Setting Up The Project
 
 22.) And then place the UIComponents titleLabel,yearLabel,actors,genreLabel,languageLabel,ratingLabel,worthWatchingLabel & plot and director label as UITextView & posterImageview as UIImageView with appropriate constraints
 
-23.)and when clicked on cell in tableviewcells that particular movie imdbID is passed
+23.)and when clicked on cell in tableviewcells that particular movie imdbID is passed to detailsViewController's movieID
 
 24.) In detailsViewController's viewDidLoad function fetchMovieDetails(movieID:) is called and fetches movie details from the OMDb API and parses the JSON response.
 
-25.) The updateUI(with:) method updates the UI components with the parsed movie details.
+25.) The updateUI(with:) function updates the UI components with the parsed movie details.
 
