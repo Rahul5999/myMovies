@@ -35,6 +35,8 @@ Setting Up The Project
 
 8.) we will setup the Required UI in the ViewController of the Project , considering placing the logo in the middle of the storyboard and changing the background
 
+![splashScreen](https://github.com/user-attachments/assets/bd33a150-60cc-48c4-851d-2c985efa7a3a)
+
 9.) So UI Setting up for splash Screen is completed.Now will select new viewController from the Library and place it on the Storyboard
 
 10.) and for that ViewController  say "MainViewController " we wil we will link that view controller through storyboard
